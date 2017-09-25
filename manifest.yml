@@ -3,5 +3,5 @@ applications:
 - name: PHPWordPress 
   memory: 512M 
   instances: 1 
-  host: PHPWordPress-${random-word} 
+  host: PHPWordPress-leumi-maorsh
   buildpack: https://github.com/ziniman/Zend-Server-7-0-Bluemix
